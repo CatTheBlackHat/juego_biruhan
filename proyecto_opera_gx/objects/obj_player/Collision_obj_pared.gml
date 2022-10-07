@@ -1,9 +1,9 @@
 //si queda trabado dentro de la pared, sacarlo
 if (place_meeting(x,y, other)){
 	if (der)
-		move_outside_all(180, 50)	
+		move_outside_all(180, 30)	
 	else
-		move_outside_all(0, 50)
+		move_outside_all(0, 30)
 }
 
 

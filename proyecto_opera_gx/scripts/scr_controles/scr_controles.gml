@@ -4,10 +4,6 @@
 
 function controles(pot_salto){
 	
-	if (!instance_exists(obj_player))
-		return; //si no existe el player saltear la funcion
-	
-	
 	if (mouse_check_button_pressed(mb_left)){ //cuando se hace click
 		if (obj_player.estado == estadoplayer.pared){ //si esta pegado a una pared
 			

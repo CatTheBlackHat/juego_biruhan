@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_pared",
   "spriteId": {
-    "name": "spr_pared_prueba",
-    "path": "sprites/spr_pared_prueba/spr_pared_prueba.yy",
+    "name": "spr_pared",
+    "path": "sprites/spr_pared/spr_pared.yy",
   },
   "solid": false,
   "visible": true,

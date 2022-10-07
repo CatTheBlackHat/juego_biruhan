@@ -11,12 +11,14 @@ switch(estado){
 }
 
 
+cambiar_sprite()
+
 if (der)
 	image_xscale = 1
 else
 	image_xscale = -1
 
-controles(15)
+controles(10)
 
 // test 
 //if (keyboard_check_pressed(vk_space)){
