@@ -1,3 +1,5 @@
+controles(10) //controlar al jugador
+
 
 switch(estado){
 	
@@ -11,20 +13,11 @@ switch(estado){
 }
 
 
-cambiar_sprite()
+cambiar_sprite() //cambiar animacion segun estado
 
-if (der)
+if (der) //voltear sprite segun la direccion
 	image_xscale = 1
 else
 	image_xscale = -1
 
-controles(10)
 
-// test 
-//if (keyboard_check_pressed(vk_space)){
-	
-//	if (estado == estadoplayer.cayendo)
-//		estado = estadoplayer.pared;
-//	else
-//		estado = estadoplayer.cayendo
-//}

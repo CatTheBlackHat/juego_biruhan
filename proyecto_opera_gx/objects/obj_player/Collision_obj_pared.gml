@@ -8,7 +8,7 @@ if (place_meeting(x,y, other)){
 
 
 //cuando el player llega saltando
-if (estado = estadoplayer.cayendo){
+if (estado == estadoplayer.cayendo){
 	estado = estadoplayer.pared; //pegar a la pared
 	der = !der; //si venía desde la derecha, queda a la izquierda y viceversa
 	hspeed = 0;

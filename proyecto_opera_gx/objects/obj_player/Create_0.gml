@@ -1,7 +1,9 @@
 
 enum estadoplayer{
-	cayendo,
-	pared,
+	preparado=0,
+	cayendo=1,
+	pared=2,
+	lastimado=3
 	
 }
 

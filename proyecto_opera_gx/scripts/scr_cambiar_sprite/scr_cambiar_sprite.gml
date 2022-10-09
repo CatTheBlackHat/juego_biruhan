@@ -13,6 +13,13 @@ function cambiar_sprite(){
 			sprite_index = spr_player_saltando;
 		break;
 		
+		case estadoplayer.preparado:
+			sprite_index = spr_player_preparado;
+		break;
+		
+		case estadoplayer.lastimado:
+			sprite_index = spr_player_lastimado;
+		break;
 		
 	}
 
