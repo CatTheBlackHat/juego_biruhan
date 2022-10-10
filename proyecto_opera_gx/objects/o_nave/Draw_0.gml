@@ -27,4 +27,32 @@ switch(estado){
 		
 	break;
 	
+	case estadosnave.lanzarmisiles:
+		
+		if (animacion == estadosanimacion.abrircompuertas) || (animacion == estadosanimacion.cerrarcompuertas){
+			draw_sprite_ext(spr_compuerta_2, subimagen, x+42, y+74, 1, 1, 0, c_white, 1)
+			draw_sprite_ext(spr_compuerta_2, subimagen, x+96, y+74, 1, 1, 0, c_white, 1)
+		}
+		
+		if (animacion == estadosanimacion.lanzarmisil){
+			draw_sprite_ext(spr_lanzandomisil, subimagen, x+42, y+74, 1, 1, 0, c_white, 1)
+			draw_sprite_ext(spr_lanzandomisil, subimagen, x+96, y+74, 1, 1, 0, c_white, 1)
+		}
+		
+		
+	break;
+	
+	case estadosnave.rayocentro:
+	
+		if (animacion == estadosanimacion.sacarrayo) || (animacion == estadosanimacion.guardarrayo)
+			draw_sprite_ext(spr_compuerta_rayo, subimagen, x+53, y+107, 1, 1, 0, c_white, 1)
+			
+		if (animacion == estadosanimacion.preparandorayo)
+			draw_sprite_ext(spr_preparando_rayo, subimagen, x+53, y+107, 1, 1, 0, c_white, 1)
+			
+		if (animacion == estadosanimacion.disparandorayo)
+			draw_sprite_ext(spr_preparando_rayo, subimagen, x+53, y+107, 1, 1, 0, c_white, 1)
+			
+	break;
+	
 }
