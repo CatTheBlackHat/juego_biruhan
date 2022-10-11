@@ -1,4 +1,4 @@
-controles(10) //controlar al jugador
+controles(15) //controlar al jugador
 
 
 switch(estado){
@@ -8,7 +8,7 @@ switch(estado){
 	break;
 	
 	case estadoplayer.pared:
-		pegar_pared(3)
+		pegar_pared(global.velocidad_subida)
 	break;
 }
 

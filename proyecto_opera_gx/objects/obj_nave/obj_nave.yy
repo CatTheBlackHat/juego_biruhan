@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_nave",
+  "name": "obj_nave",
   "spriteId": {
     "name": "spr_nave",
     "path": "sprites/spr_nave/spr_nave.yy",

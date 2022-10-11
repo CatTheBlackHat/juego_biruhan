@@ -1,0 +1,1 @@
+global.velocidad_subida = 3;
