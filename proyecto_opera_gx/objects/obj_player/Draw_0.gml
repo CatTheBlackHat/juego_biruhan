@@ -1,6 +1,6 @@
 draw_self()
 
-if (estado == estadoplayer.preparado){
+if (estado == estadosplayer.preparado){
 	
 	if (der)
 		draw_sprite(spr_flecha_salto, -1, x, y-40);
@@ -12,10 +12,10 @@ if (estado == estadoplayer.preparado){
 
 //////////DEBUG
 
-if (estado==estadoplayer.cayendo )draw_text(10,252, string("cayendo"))
-if (estado==estadoplayer.lastimado )draw_text(10,252, string("lastimado"))
-if (estado==estadoplayer.pared)draw_text(10, 252, string("en la pared"))
-if (estado==estadoplayer.preparado)draw_text(10,252, string("preparado"))
+if (estado==estadosplayer.cayendo )draw_text(10,252, string("cayendo"))
+if (estado==estadosplayer.lastimado )draw_text(10,252, string("lastimado"))
+if (estado==estadosplayer.pared)draw_text(10, 252, string("en la pared"))
+if (estado==estadosplayer.preparado)draw_text(10,252, string("preparado"))
 
 
 room_speed = 30

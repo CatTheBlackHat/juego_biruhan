@@ -5,19 +5,19 @@ function cambiar_sprite(){
 	
 	switch (estado){
 		
-		case estadoplayer.pared:
+		case estadosplayer.pared:
 			sprite_index = spr_player_pared;
 		break;
 		
-		case estadoplayer.cayendo:
+		case estadosplayer.cayendo:
 			sprite_index = spr_player_saltando;
 		break;
 		
-		case estadoplayer.preparado:
+		case estadosplayer.preparado:
 			sprite_index = spr_player_preparado;
 		break;
 		
-		case estadoplayer.lastimado:
+		case estadosplayer.lastimado:
 			sprite_index = spr_player_lastimado;
 		break;
 		

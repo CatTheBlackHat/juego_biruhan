@@ -1,15 +1,18 @@
-controles(15) //controlar al jugador
+if (estado != estadosplayer.lastimado) //si el player esta lastima no se mueve
+	controles(15) //controlar al jugador
 
 
 switch(estado){
 	
-	case estadoplayer.cayendo:
+	case estadosplayer.cayendo:
+	case estadosplayer.lastimado:
 		gravedad(2, 30)
 	break;
 	
-	case estadoplayer.pared:
+	case estadosplayer.pared:
 		pegar_pared(global.velocidad_subida)
 	break;
+	
 }
 
 

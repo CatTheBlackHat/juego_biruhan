@@ -1,0 +1,2 @@
+estado = estadosplayer.lastimado;
+
