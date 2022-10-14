@@ -33,5 +33,7 @@ enum estadosanimacion{
 	
 }
 
-animacion = estadosanimacion.ninguna; //determina cuando animar los cañones 
+animacion = estadosanimacion.ninguna; //determina cuando animar las armas 
 subimagen = 0;
+
+depth = 0;

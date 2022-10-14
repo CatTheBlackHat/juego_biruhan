@@ -20,4 +20,4 @@ if (estado==estadosplayer.preparado)draw_text(10,252, string("preparado"))
 
 room_speed = 30
 depth = -10000
-draw_text(x,y+64, string(der))
+draw_text(x,y+44, string(der))

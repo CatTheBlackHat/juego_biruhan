@@ -103,8 +103,11 @@ switch(estado){
 		
 		if (animacion == estadosanimacion.disparandorayo){
 			
+			if (!instance_exists(obj_rayo))
+				instance_create_layer(x+58, y+110, "Instances", obj_rayo)
+			
 			if (alarm[3] == -1) //parar rayo
-				alarm[3] = seg * 3;
+				alarm[3] = seg * 1;
 			
 			if (subimagen < 3) //hacer ciclo de animacion
 				subimagen++;

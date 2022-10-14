@@ -18,6 +18,8 @@ function controles(pot_salto){
 			else
 				saltar(-pot_salto)
 				
+			//reproducir sonido de salto
+			audio_play_sound(choose(salto_1, salto_2, salto_3),1, false )
 				
 			estado = estadosplayer.cayendo; //aplicar gravedad
 				
